@@ -1,0 +1,12 @@
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\bin\Release\net6.0\GeliosFill.Models.deps.json
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\bin\Release\net6.0\GeliosFill.Models.dll
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\bin\Release\net6.0\GeliosFill.Models.pdb
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\obj\Release\net6.0\GeliosFill.Models.csproj.AssemblyReference.cache
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\obj\Release\net6.0\GeliosFill.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\obj\Release\net6.0\GeliosFill.Models.AssemblyInfoInputs.cache
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\obj\Release\net6.0\GeliosFill.Models.AssemblyInfo.cs
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\obj\Release\net6.0\GeliosFill.Models.csproj.CoreCompileInputs.cache
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\obj\Release\net6.0\GeliosFill.Models.dll
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\obj\Release\net6.0\refint\GeliosFill.Models.dll
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\obj\Release\net6.0\GeliosFill.Models.pdb
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\obj\Release\net6.0\ref\GeliosFill.Models.dll

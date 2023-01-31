@@ -1,0 +1,3 @@
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\bin\Debug\net6.0\publish\GeliosFill.Models.dll
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\bin\Debug\net6.0\publish\GeliosFill.Models.deps.json
+C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Models\bin\Debug\net6.0\publish\GeliosFill.Models.pdb
