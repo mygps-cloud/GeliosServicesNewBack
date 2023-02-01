@@ -20,7 +20,7 @@ public class User : IUser
         var userFillInfo = GetUserFillInfo(userFillInfoForm);
         if (userFillInfo)
             return "Exists";
-        
+
         var url = BuildUrl(userFillInfoForm);
         var carInfos = await GetCarInfoFromGelios(url);
 
@@ -33,9 +33,9 @@ public class User : IUser
     }
 
     private bool GetUserFillInfo(UserFillInfoForm userFillInfoForm)
-    =>
-        _ctx.UserFillInfos
-            .Any(x => x.CarName.Equals(userFillInfoForm.CarName));
+        =>
+            _ctx.UserFillInfos
+                .Any(x => x.CarName.Equals(userFillInfoForm.CarName) && x.Username.Equals(userFillInfoForm.Username));
 
     private static int GetCarId(IEnumerable<CarInfo> carInfos, UserFillInfoForm userFillInfoForm)
         => carInfos

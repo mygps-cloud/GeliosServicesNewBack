@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GeliosFill.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230131073407_InitialCreate")]
+    [Migration("20230201070249_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

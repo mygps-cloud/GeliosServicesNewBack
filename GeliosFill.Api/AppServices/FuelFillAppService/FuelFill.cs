@@ -25,6 +25,7 @@ public class FuelFill : IFuelFill
         var userFillInfos = GetUserFillInfos(userInfo.Username);
         foreach (var info in userFillInfos)
         {
+            if (info.CarId == 0) continue;
             var lastDateOfFill = GetLastDateOfFillForUser(userInfo, info.CarId);
             var fills = GetFills(info.CardId, lastDateOfFill);
             foreach (var fill in fills)
@@ -61,6 +62,7 @@ public class FuelFill : IFuelFill
                 .Include(y => y.FuelFillHistories)
                 .Select(UserFillViewModel.Create)
                 .ToList();
+    
 
     private async Task<double> GetDistance(Ags ags, Fill fill, UserInfo userInfo,
         UserFillInfo info)

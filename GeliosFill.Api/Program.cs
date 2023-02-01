@@ -47,6 +47,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run("https://cardistance.mygps.ge:7157");
+app.Run();
 
 

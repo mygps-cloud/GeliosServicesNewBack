@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9a8bccf0-f367-4696-b6f5-ebd0159efcc1" name="85.117.37.116" url="https://distance.mygps.ge">
+        <fileTransfer rootFolder="/webdav" accessType="WEBDAV" host="85.117.37.116" port="7157">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="85.117.37.116">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../../../../Program Files/dotnet/sdk/6.0.402/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_6_default.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/../../../../Program Files/dotnet/sdk/6.0.402/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_6_default.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/../../../../Program Files/dotnet/sdk/6.0.402/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_6_default.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/.run" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api.sln" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/AppServices/FuelFillAppService/FuelFill.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/AppServices/FuelFillAppService/IFuelFill.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/AppServices/UserAppService/IUser.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/AppServices/UserAppService/User.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/Controllers/HomeController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/Controllers/UserController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/Form/UserFillInfoForm.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/GeliosFill.Api.csproj" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/Program.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/Properties/PublishProfiles/FolderProfile.pubxml" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/Properties/launchSettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/ViewModels/UserFillViewModel.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/appsettings.Development.json" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/appsettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/hosting.json" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/obj/Debug/net6.0/GeliosFill.Api.AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/obj/Debug/net6.0/GeliosFill.Api.GeneratedMSBuildEditorConfig.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Api/obj/Debug/net6.0/GeliosFill.Api.GlobalUsings.g.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Data/AppDbContext.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Data/GeliosFill.Data.csproj" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Data/Migrations/20230131073407_InitialCreate.Designer.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Data/Migrations/20230131073407_InitialCreate.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Data/Migrations/AppDbContextModelSnapshot.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Data/MyGpsDbContext.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Data/obj/Debug/net6.0/GeliosFill.Data.AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Data/obj/Debug/net6.0/GeliosFill.Data.GeneratedMSBuildEditorConfig.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Data/obj/Debug/net6.0/GeliosFill.Data.GlobalUsings.g.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/Ags.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/CarInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/CarLocation.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/Data.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/Fill.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/FuelFillHistory.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/GPSData.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/GeliosFill.Models.csproj" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/Table.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/UserFillInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/UserInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/obj/Debug/net6.0/GeliosFill.Models.AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/obj/Debug/net6.0/GeliosFill.Models.GeneratedMSBuildEditorConfig.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/GeliosFill.Models/obj/Debug/net6.0/GeliosFill.Models.GlobalUsings.g.cs" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
