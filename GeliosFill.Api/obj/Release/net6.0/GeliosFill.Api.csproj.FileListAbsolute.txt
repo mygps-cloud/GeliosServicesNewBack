@@ -85,4 +85,3 @@ C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\obj\Release\net6.0\ref
 C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\obj\Release\net6.0\GeliosFill.Api.pdb
 C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\obj\Release\net6.0\GeliosFill.Api.genruntimeconfig.cache
 C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\obj\Release\net6.0\ref\GeliosFill.Api.dll
-C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\bin\Release\net6.0\hosting.json

@@ -1,3 +1,4 @@
+using GeliosFill.Api.AppServices.FineAppService;
 using GeliosFill.Api.AppServices.FuelFillAppService;
 using GeliosFill.Api.AppServices.UserAppService;
 using GeliosFill.Data;
@@ -12,6 +13,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultDb")));
 builder.Services.AddDbContext<MyGpsDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyGpsDb")));
+builder.Services.AddDbContext<SmsSenderDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SmsSenderDb")));
 
 
 builder.Services.AddCors(options => options.AddPolicy(angularApp, build => build
@@ -28,6 +31,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IFuelFill, FuelFill>();
 builder.Services.AddTransient<IUser, User>();
+builder.Services.AddTransient<IFine, Fine>();
 
 
 var app = builder.Build();
@@ -48,5 +52,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
-

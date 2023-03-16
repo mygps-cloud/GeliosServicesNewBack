@@ -43,7 +43,7 @@ public class User : IUser
             .Select(y => y.id)
             .FirstOrDefault();
 
-    private static async Task<List<CarInfo>?> GetCarInfoFromGelios(string url)
+    public async Task<List<CarInfo>?> GetCarInfoFromGelios(string url)
     {
         // Send Request to Gelios Api
         using var client = new HttpClient();
@@ -57,6 +57,10 @@ public class User : IUser
     private static string BuildUrl(UserFillInfoForm userFillInfoForm)
         =>
             $"https://gadm.mygps.ge/sdk/?login={userFillInfoForm.Username}&pass={userFillInfoForm.Password}&svc=get_units";
+
+    public string BuildUrl(UserInfo userInfo)
+        =>
+            $"https://gadm.mygps.ge/sdk/?login={userInfo.Username}&pass={userInfo.Password}&svc=get_units";
 
     private async Task AddUserFillInfoIntoDatabase(UserFillInfoForm userFillInfoForm, int carId)
     {

@@ -1,7 +1,6 @@
 C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\bin\Release\net6.0\publish\GeliosFill.Api.exe
 C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\bin\Release\net6.0\publish\appsettings.Development.json
 C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\bin\Release\net6.0\publish\appsettings.json
-C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\bin\Release\net6.0\publish\hosting.json
 C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\bin\Release\net6.0\publish\GeliosFill.Api.dll
 C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\bin\Release\net6.0\publish\GeliosFill.Api.runtimeconfig.json
 C:\Users\Goga\RiderProjects\GeliosFill.Api\GeliosFill.Api\bin\Release\net6.0\publish\GeliosFill.Api.pdb
