@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeliosFill.Api", "GeliosFill.Api\GeliosFill.Api.csproj", "{8BD6E7F6-277D-4E2B-9DB7-AEFFA32FDC31}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeliosFill.Api", "GeliosFill.Api\GeliosFill.Api.csproj", "{8BD6E7F6-277D-4E2B-9DB7-AEFFA32FDC31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeliosFill.Models", "GeliosFill.Models\GeliosFill.Models.csproj", "{283A6F8A-FD71-4B7D-9379-9115B1A42D62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeliosFill.Models", "GeliosFill.Models\GeliosFill.Models.csproj", "{283A6F8A-FD71-4B7D-9379-9115B1A42D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeliosFill.Data", "GeliosFill.Data\GeliosFill.Data.csproj", "{592F1C2B-B38D-4316-891F-768C5B784262}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeliosFill.Data", "GeliosFill.Data\GeliosFill.Data.csproj", "{592F1C2B-B38D-4316-891F-768C5B784262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMap.Models", "GoogleMap.Models\GoogleMap.Models.csproj", "{B28E33F0-3ABA-4EC4-97D8-4190D96814ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,15 @@ Global
 		{592F1C2B-B38D-4316-891F-768C5B784262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{592F1C2B-B38D-4316-891F-768C5B784262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{592F1C2B-B38D-4316-891F-768C5B784262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28E33F0-3ABA-4EC4-97D8-4190D96814ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28E33F0-3ABA-4EC4-97D8-4190D96814ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28E33F0-3ABA-4EC4-97D8-4190D96814ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28E33F0-3ABA-4EC4-97D8-4190D96814ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0980C76C-6F0F-4A0F-AA95-8B0E20936032}
 	EndGlobalSection
 EndGlobal

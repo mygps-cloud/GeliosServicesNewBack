@@ -10,6 +10,7 @@
         "dependencies": {
           "GeliosFill.Data": "1.0.0",
           "GeliosFill.Models": "1.0.0",
+          "GoogleMap.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.Design": "7.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
@@ -767,6 +768,11 @@
         "runtime": {
           "GeliosFill.Models.dll": {}
         }
+      },
+      "GoogleMap.Models/1.0.0": {
+        "runtime": {
+          "GoogleMap.Models.dll": {}
+        }
       }
     }
   },
@@ -1300,6 +1306,11 @@
       "sha512": ""
     },
     "GeliosFill.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GoogleMap.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CXzxXv4wesIi/fnDqLCtVOIx6Nzn6JxM9+4XqF+FIRVOpE0XTqyjROHxqLyt8lvInVco6Xp1TTnqh7c0pqCP6w==",
+  "dgSpecHash": "NQ+UpGiyzF4S/8SQr7DLoxRwNRgwd0j91+dKN4xJVJv6SWnTjKTlDgx8ipY7y3mO4cLcHuzbYpYvD3OUcuAfAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Models\\GeliosFill.Models.csproj",
+  "projectFilePath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Data\\GeliosFill.Data.csproj": {}
+    "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Data\\GeliosFill.Data.csproj": {
+    "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Data\\GeliosFill.Data.csproj",
+        "projectUniqueName": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj",
         "projectName": "GeliosFill.Data",
-        "projectPath": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Data\\GeliosFill.Data.csproj",
-        "packagesPath": "C:\\Users\\Goga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Data\\obj\\",
+        "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj",
+        "packagesPath": "C:\\Users\\romsk\\.nuget\\packages\\",
+        "outputPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Goga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\romsk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Models\\GeliosFill.Models.csproj": {
-                "projectPath": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Models\\GeliosFill.Models.csproj"
+              "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj": {
+                "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj"
               }
             }
           }
@@ -75,21 +79,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Models\\GeliosFill.Models.csproj": {
+    "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Models\\GeliosFill.Models.csproj",
+        "projectUniqueName": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
         "projectName": "GeliosFill.Models",
-        "projectPath": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Models\\GeliosFill.Models.csproj",
-        "packagesPath": "C:\\Users\\Goga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Models\\obj\\",
+        "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
+        "packagesPath": "C:\\Users\\romsk\\.nuget\\packages\\",
+        "outputPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Goga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\romsk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

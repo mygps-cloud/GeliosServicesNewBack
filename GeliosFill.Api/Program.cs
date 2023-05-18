@@ -10,11 +10,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultDb")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultDb"), b => b.MigrationsAssembly("GeliosFill.Api")));
 builder.Services.AddDbContext<MyGpsDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("MyGpsDb")));
 builder.Services.AddDbContext<SmsSenderDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SmsSenderDb")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SmsSenderDb"), b => b.MigrationsAssembly("GeliosFill.Api")));
 
 
 builder.Services.AddCors(options => options.AddPolicy(angularApp, build => build

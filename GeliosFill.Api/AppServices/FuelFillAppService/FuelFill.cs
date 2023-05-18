@@ -1,7 +1,9 @@
 ﻿using System.Globalization;
+using System.Runtime.InteropServices;
 using GeliosFill.Api.ViewModels;
 using GeliosFill.Data;
 using GeliosFill.Models;
+using GoogleMap.Models;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
@@ -28,17 +30,29 @@ public class FuelFill : IFuelFill
             if (info.CarId == 0) continue;
             var lastDateOfFill = GetLastDateOfFillForUser(userInfo, info.CarId);
             var fills = GetFills(info.CardId, lastDateOfFill);
+
             foreach (var fill in fills)
             {
                 // AddFuelHistoryIntoDatabase(fill, info, userInfo);
-                var fuelFillHistory = new FuelFillHistory
-                {
-                    DateOfFill = fill.FillDateTime,
-                    UserFillInfoId = info.Id
-                };
                 var ags = GetAgs(fill.AGSID);
                 if (ags == null) continue;
-                fuelFillHistory.Distance = await GetDistance(ags, fill, userInfo, info);
+                string result=await GetNamedLocation(ags.latt, ags.longt);
+                var distance = await GetDistance(ags, fill, userInfo, info);
+
+                
+                var fuelFillHistory = new FuelFillHistory
+                {
+                    Distance = distance,
+                    DateOfFill = fill.FillDateTime,
+                    FillPlace = result,
+                    Latt = ags.latt,
+                    Long = ags.longt,
+                    Liters = fill.Liters ?? 0M,
+                    UnitPrice = fill.UnitPrice ?? 0M,
+                    TotalPrice = fill.Sum ?? 0M,
+                    UserFillInfoId = info.Id,
+                };
+               
                 await AddFuelHistoryIntoDatabase(fuelFillHistory);
             }
         }
@@ -144,7 +158,6 @@ public class FuelFill : IFuelFill
         lastDateOfFill ??= new DateTime(DateTime.Now.Year, 1, 1);
         return _ctx.Fills.Where(x => x.CardID.Equals(cardId) && x.FillDateTime > lastDateOfFill.Value).ToList();
     }
-
     private Ags? GetAgs(string agsId)
         =>
             _ctx.AGS.FirstOrDefault(x => x.Name.Contains(agsId));
@@ -181,4 +194,42 @@ public class FuelFill : IFuelFill
 
     // Angle in 10th of a degree
     private static double ConvertToRadians(double angleIn10ThofaDegree) => (angleIn10ThofaDegree * Math.PI) / 180;
+
+    private static async Task<string> GetNamedLocation(decimal latitude, decimal longitude)
+    {
+        const string api_key = "AIzaSyBiNzOT0oypzu-Izc2mBwWrV3j7CepjODU";
+        string apiUrl = $"https://maps.googleapis.com/maps/api/geocode/json?latlng={latitude},{longitude}&key={api_key}";
+        string result = "";
+        using (HttpClient client = new HttpClient())
+        {
+            HttpResponseMessage response = await client.GetAsync(apiUrl);
+
+            if (response.IsSuccessStatusCode)
+            {
+                string jsonResponse = await response.Content.ReadAsStringAsync();
+                UnifyingObject? data = JsonConvert.DeserializeObject<UnifyingObject>(jsonResponse);
+
+                var dt = data.results[1].address_components;
+              
+                for (int i = 0; i <= 3; i++)
+                {
+                    try
+                    {
+                        if (i == 0)
+                            continue;
+                        result += dt[i].long_name + ((char)32);
+                    }
+                    catch (Exception e)
+                    {
+                        return "Unknown";
+                    }
+                }
+            }
+            else
+            {
+                return "Unknown";
+            }
+        }
+        return result;
+    }
 }

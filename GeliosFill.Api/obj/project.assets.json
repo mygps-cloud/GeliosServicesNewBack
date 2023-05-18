@@ -1268,6 +1268,16 @@
         "runtime": {
           "bin/placeholder/GeliosFill.Models.dll": {}
         }
+      },
+      "GoogleMap.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/GoogleMap.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GoogleMap.Models.dll": {}
+        }
       }
     }
   },
@@ -3753,12 +3763,18 @@
       "type": "project",
       "path": "../GeliosFill.Models/GeliosFill.Models.csproj",
       "msbuildProject": "../GeliosFill.Models/GeliosFill.Models.csproj"
+    },
+    "GoogleMap.Models/1.0.0": {
+      "type": "project",
+      "path": "../GoogleMap.Models/GoogleMap.Models.csproj",
+      "msbuildProject": "../GoogleMap.Models/GoogleMap.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "GeliosFill.Data >= 1.0.0",
       "GeliosFill.Models >= 1.0.0",
+      "GoogleMap.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
@@ -3767,19 +3783,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Goga\\.nuget\\packages\\": {}
+    "C:\\Users\\romsk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Api\\GeliosFill.Api.csproj",
+      "projectUniqueName": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj",
       "projectName": "GeliosFill.Api",
-      "projectPath": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Api\\GeliosFill.Api.csproj",
-      "packagesPath": "C:\\Users\\Goga\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Api\\obj\\",
+      "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj",
+      "packagesPath": "C:\\Users\\romsk\\.nuget\\packages\\",
+      "outputPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Goga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\romsk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3793,11 +3814,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Data\\GeliosFill.Data.csproj": {
-              "projectPath": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Data\\GeliosFill.Data.csproj"
+            "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj": {
+              "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj"
             },
-            "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Models\\GeliosFill.Models.csproj": {
-              "projectPath": "C:\\Users\\Goga\\RiderProjects\\GeliosFill.Api\\GeliosFill.Models\\GeliosFill.Models.csproj"
+            "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj": {
+              "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj"
+            },
+            "C:\\Dot.net\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj": {
+              "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj"
             }
           }
         }
@@ -3854,7 +3878,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
