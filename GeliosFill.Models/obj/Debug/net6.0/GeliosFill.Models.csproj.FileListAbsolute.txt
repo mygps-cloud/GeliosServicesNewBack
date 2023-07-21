@@ -22,3 +22,15 @@ C:\Dot.net\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\GeliosFill.M
 C:\Dot.net\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\refint\GeliosFill.Models.dll
 C:\Dot.net\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\GeliosFill.Models.pdb
 C:\Dot.net\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\ref\GeliosFill.Models.dll
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\bin\Debug\net6.0\GeliosFill.Models.deps.json
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\bin\Debug\net6.0\GeliosFill.Models.dll
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\bin\Debug\net6.0\GeliosFill.Models.pdb
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\GeliosFill.Models.csproj.AssemblyReference.cache
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\GeliosFill.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\GeliosFill.Models.AssemblyInfoInputs.cache
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\GeliosFill.Models.AssemblyInfo.cs
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\GeliosFill.Models.csproj.CoreCompileInputs.cache
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\GeliosFill.Models.dll
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\refint\GeliosFill.Models.dll
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\GeliosFill.Models.pdb
+C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Models\obj\Debug\net6.0\ref\GeliosFill.Models.dll

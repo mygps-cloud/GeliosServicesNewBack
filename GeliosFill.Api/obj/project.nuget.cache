@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kyCdhcoiybTU8f7tYaIXsh7z+AAWcbfxsS5T3Ol7DRoZPuJkHgm/p/yX8WHOEwqDUlgL5m6vRTlTXb+CWAbEJw==",
+  "dgSpecHash": "H1YrEE+pXylPLX6q2UYupD0115btiqD+Azfyqylu4sQoVF+4zFIERpyP7uuQnrp5KBklQnOKqAJ+72iy0gvmaQ==",
   "success": true,
-  "projectFilePath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj",
+  "projectFilePath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\romsk\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\romsk\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

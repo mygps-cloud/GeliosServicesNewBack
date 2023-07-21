@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace GeliosFill.Models;
 
@@ -15,6 +16,7 @@ public class UserFillInfo
  
     public string Username { get; set; }
 
-    public IList<FuelFillHistory> FuelFillHistories { get; set; } = new List<FuelFillHistory>();
+    [JsonIgnore]
+    public List<FuelFillHistory> FuelFillHistories { get; set; } = new List<FuelFillHistory>();
 
 }

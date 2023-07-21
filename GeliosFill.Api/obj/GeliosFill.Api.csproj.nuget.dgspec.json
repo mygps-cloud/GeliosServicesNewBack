@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj": {}
+    "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj": {}
   },
   "projects": {
-    "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj": {
+    "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj",
+        "projectUniqueName": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj",
         "projectName": "GeliosFill.Api",
-        "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj",
+        "projectPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Api\\GeliosFill.Api.csproj",
         "packagesPath": "C:\\Users\\romsk\\.nuget\\packages\\",
-        "outputPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Api\\obj\\",
+        "outputPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj": {
-                "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj"
+              "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj": {
+                "projectPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj"
               },
-              "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj": {
-                "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj"
+              "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj": {
+                "projectPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj"
               },
-              "C:\\Dot.net\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj": {
-                "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj"
+              "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj": {
+                "projectPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj": {
+    "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj",
+        "projectUniqueName": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj",
         "projectName": "GeliosFill.Data",
-        "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj",
+        "projectPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Data\\GeliosFill.Data.csproj",
         "packagesPath": "C:\\Users\\romsk\\.nuget\\packages\\",
-        "outputPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Data\\obj\\",
+        "outputPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,8 +128,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj": {
-                "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj"
+              "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj": {
+                "projectPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj"
               }
             }
           }
@@ -179,14 +179,14 @@
         }
       }
     },
-    "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj": {
+    "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
+        "projectUniqueName": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
         "projectName": "GeliosFill.Models",
-        "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
+        "projectPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
         "packagesPath": "C:\\Users\\romsk\\.nuget\\packages\\",
-        "outputPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\obj\\",
+        "outputPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -238,14 +238,14 @@
         }
       }
     },
-    "C:\\Dot.net\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj": {
+    "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dot.net\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj",
+        "projectUniqueName": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj",
         "projectName": "GoogleMap.Models",
-        "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj",
+        "projectPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GoogleMap.Models\\GoogleMap.Models.csproj",
         "packagesPath": "C:\\Users\\romsk\\.nuget\\packages\\",
-        "outputPath": "C:\\Dot.net\\GeliosServicesNewBack\\GoogleMap.Models\\obj\\",
+        "outputPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GoogleMap.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

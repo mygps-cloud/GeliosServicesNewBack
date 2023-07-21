@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
+      "projectUniqueName": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
       "projectName": "GeliosFill.Models",
-      "projectPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
+      "projectPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\GeliosFill.Models.csproj",
       "packagesPath": "C:\\Users\\romsk\\.nuget\\packages\\",
-      "outputPath": "C:\\Dot.net\\GeliosServicesNewBack\\GeliosFill.Models\\obj\\",
+      "outputPath": "C:\\Users\\romsk\\OneDrive\\Desktop\\GeliosServicesNewBack\\GeliosFill.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

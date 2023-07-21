@@ -1,5 +1,9 @@
 ﻿using System.Globalization;
+using System.Reflection;
 using System.Runtime.InteropServices;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using GeliosFill.Api.DTOs;
 using GeliosFill.Api.ViewModels;
 using GeliosFill.Data;
 using GeliosFill.Models;
@@ -69,13 +73,33 @@ public class FuelFill : IFuelFill
         return query.Max(x => x.DateOfFill);
     }
 
-    public object GetFuelHistory(UserInfo userInfo)
-        =>
-            _context.UserFillInfos
-                .Where(x => x.Username.Equals(userInfo.Username))
-                .Include(y => y.FuelFillHistories)
-                .Select(UserFillViewModel.Create)
-                .ToList();
+    public List<FuelHistoryDTO> GetFuelHistory(UserInfo userInfo)
+    {
+        List<FuelHistoryDTO> sortedArrayForHistory = new();
+        var result=_context.UserFillInfos
+            .Where(x => x.Username.Equals(userInfo.Username))
+            .Include(y => y.FuelFillHistories)
+            .Select(UserFillViewModel.Create)
+            .ToList();
+        List<FuelHistoryDTO> temporaryHistory = new (result);
+        
+        foreach (var expr in temporaryHistory)
+        {
+            if (expr.CarDetalsDtos.Count==0)
+            {
+                sortedArrayForHistory.Add(expr);
+                result.Remove(expr);
+            }
+        }
+
+        foreach (var item in result)
+        {
+            sortedArrayForHistory.Insert(0, item);
+        }
+        return sortedArrayForHistory;
+    }
+        
+            
     
 
     private async Task<double> GetDistance(Ags ags, Fill fill, UserInfo userInfo,
