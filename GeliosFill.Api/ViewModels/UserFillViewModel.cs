@@ -25,27 +25,6 @@ public static class UserFillViewModel
                         fuelFillHistory.UnitPrice,
                         fuelFillHistory.TotalPrice))
                     .ToList());
-    /*userFillInfo.FuelFillHistories.Select(x => new
-   {
-       x.Distance,
-       x.DateOfFill,
-       x.FillPlace,
-       x.Latt,
-       x.Long,
-       x.Liters,
-       x.UnitPrice,
-       x.TotalPrice
-   }).ToList());*/
 
 }
-/*new FuelHistoryDTO(userFillInfo.CarName, 
-           userFillInfo.CardId,
-           userFillInfo.FuelFillHistories.Select(n=>n.Distance),
-           userFillInfo.FuelFillHistories.Select(n=>n.DateOfFill),
-           userFillInfo.FuelFillHistories.Select(n=>n.FillPlace),
-           userFillInfo.FuelFillHistories.Select(n=>n.Latt),
-           userFillInfo.FuelFillHistories.Select(n=>n.Long),
-           userFillInfo.FuelFillHistories.Select(n=>n.Liters),
-           userFillInfo.FuelFillHistories.Select(n=>n.UnitPrice),
-           userFillInfo.FuelFillHistories.Select(n=>n.TotalPrice).ToList());*/
 
