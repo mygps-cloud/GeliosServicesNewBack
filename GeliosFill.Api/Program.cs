@@ -28,9 +28,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddTransient<IFuelFill, FuelFill>();
-builder.Services.AddTransient<IUser, User>();
-builder.Services.AddTransient<IFine, Fine>();
+builder.Services.AddScoped<IFuelFill, FuelFill>();
+builder.Services.AddScoped<IUser, User>();
+builder.Services.AddScoped<IFine, Fine>();
 
 
 var app = builder.Build();

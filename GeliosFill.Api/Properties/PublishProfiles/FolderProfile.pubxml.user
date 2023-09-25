@@ -3,4 +3,9 @@
 https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\romsk\OneDrive\Desktop\GeliosServicesNewBack\GeliosFill.Api\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-09-25T11:14:14.9513330Z;True|2023-09-25T15:14:11.5933293+04:00;True|2023-09-25T15:10:27.9725205+04:00;True|2023-09-25T15:10:23.9592478+04:00;True|2023-08-31T16:42:06.5376145+04:00;True|2023-08-31T16:41:59.1802175+04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
 </Project>
