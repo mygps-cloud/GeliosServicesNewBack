@@ -38,7 +38,7 @@ public class Fine : IFine
             .Where(sms => sms.Parsed && carNumbers.Contains(sms.CarNumber!))
             .AsEnumerable()
             .Select(UserFineViewModel.Create)
-            .OrderByDescending(s => Convert.ToInt32(s.FineStatus) == Convert.ToInt32(FineStatus.Paid))
+            .OrderBy(s => Convert.ToInt32(s.FineStatus) == Convert.ToInt32(FineStatus.Paid))
             .ToList();
 
 
